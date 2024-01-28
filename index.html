@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ice Cream</title>
+    <style>
+        body {
+            background-image: url("warna.jpg");
+            background-position: center;
+            background-size: cover; 
+        }
+    </style>
+    <link rel="stylesheet" href="w3.css">
+</head>
+<body>
+
+<img src="atas.jpg" style="width: 100%;">
+
+<div class="w3-bar w3-brown w3-card-4">
+    <button class="w3-bar-item w3-button" onclick="openKota('profil')">Profil</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('aboutus')">About Us</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('chunky')">Chunky</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('crumble')">Crumble</button>
+    <button class="w3-bar-item w3-button" onclick="openKota('cone')">Cone</button>
+    
+
+    <div class="w3-dropdown-hover">
+        <button class="w3-button">Drink</button>
+        <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <button class="w3-bar-item w3-button" onclick="openKota('menucolafloat')">Cola Float</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('menufantafloat')">Fanta Float</button>
+            <button class="w3-bar-item w3-button" onclick="openKota('menurootbeerfloat')">Rootbeer Float</button>
+        </div>
+    </div>
+    <button class="w3-bar-item w3-button" onclick="openKota('contactus')">Contact Us</button>
+</div>
+
+<div id="profil" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>PROFIL</h1>
+    <img src="profil.jpeg" style="width: 25%;">
+        <p> NIM   : 10123234</p>
+        <p> NAMA  : Anisa</p>
+        <p> KELAS : IF-6</p>
+    </center>
+</div>
+
+<div id="aboutus" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+    <h1 ><b>About Us</h1>
+    <br>
+    <img src="oi.jpeg" style="width: 25%;">
+    <br><br>
+        <p>Selamat datang di  OI MLIK AND ICE CREAM CORNER!.</p>
+    <br><br>
+        <p>Tempat di mana setiap gigitan adalah petualangan rasa yang menggembirakan</p>
+        <p> Kami bangga menjadi bagian dari kenangan manis Anda dan berharap dapat terus menyajikan kelezatan yang memanjakan lidah Anda.Di sini,</p>
+        <p>Kami bukan hanya sekadar tempat untuk menikmati hidangan lezat, tetapi juga merupakan tempat di mana setiap kunjungan menjadi sebuah perjalanan rasa.</p>
+        <p>Terima kasih atas kunjungan Anda,dan kami berharap dapat menyambut Anda segera!</p>
+    </center>
+</div>
+
+<div id="chunky" class="w3-container kota w3-animate-left w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+      <h1 ><b> Menu Chunky </h1></b>
+	</center>
+	
+	<div class="w3-panel w3-grey w3-round-xlarge">
+	    <p>
+	        <center>
+	            <h2>Chunky Strawberry</h2>
+                <img src="strawberry.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan tambahan Sauce Strawberry yang manis dan segar.</p>
+            </center>
+        </p>
+	</div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Chunky Mango</h2>
+                <img src="mango.png" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan tambahan Sauce Mango yang manis dan segar.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Chunky Kiwi</h2>
+                <img src="kiwii.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan tambahan Sauce Kiwi yang manis dan segar.</p>
+            </center>
+        </p>
+    </div>
+		
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Chunky Blueberry</h2>
+                <img src="blueberry.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan tambahan Sauce Blueberry yang manis dan segar.</p>
+            </center>
+        </p>
+    </div>
+</div>
+
+<div id="crumble" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1><b>Menu Crumble</b></h1>
+    </center>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <h2>Crumble Matcha</h2>
+                <img src="matcha.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan tambahan perpaduan topping Crumble Matcha.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge>">
+        <p>
+            <center>
+                <h2>Crumble Lotus Biscof</h2>
+                <img src="lotus.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan perpaduan topping Biskuit Lotus Biscof yang di hancurkan.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge>">
+        <p>
+            <center>
+                <h2>Crumble Double Caramel</h2>
+                <img src="dc.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan perpaduan topping Sauce Caramel dan Crumble Caramel.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge>">
+        <p>
+            <center>
+                <h2>Crumble Oreo</h2>
+                <img src="oreo.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan perpaduan topping crumble oreo.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge>">
+        <p>
+            <center>
+                <h2>Crumble Choconuts</h2>
+                <img src="nuts.jpg" style="width: 10%;">
+                <p>Ice Cream Vanilla dengan perpaduan topping Sauce coklat di tambah dengan Crumble kacang.</p>
+            </center>
+        </p>
+    </div>   
+</div>
+
+<div id="cone" class="w3-container kota w3-animate-left w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+     <center>
+        <h1><b> Menu Cone </h1></b>
+    </center>
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="vanilla.jpg" style="width: 10%;">
+                <p>Soft Mix Ice Cream Vanilla.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="pink.jpg" style="width: 10%;">
+                <p>Soft Mix Ice Cream Strawberry.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="coklat.jpg" style="width: 10%;">
+                <p>Soft Mix Ice Cream Cokelat.</p>
+            </center>
+        </p>
+    </div>
+
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="greentea.jpg" style="width: 10%;">
+                <p>Soft Mix Ice Cream Matcha/Green Tea.</p>
+            </center>
+        </p>
+    </div>
+    
+</div>
+
+
+
+<div id="menucolafloat" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>Cola Float</h1>
+    </center>
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="cola.jpg" style="width: 10%;">
+                <p>Rasa khas cola yang menyegarkan bertemu dengan kelembutan es krim vanilla yang lezat,</p>
+                <p>menciptakan pernikahan rasa yang harmonis di setiap tegukan..</p>
+            </center>
+        </p>
+    </div>   
+   
+
+</div>
+
+<div id="menufantafloat" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>Fanta Float</h1>
+    </center>	
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="fanta.jpg" style="width: 10%;">
+                <p>Dalam cuaca panas atau sebagai teman hangout,</p>
+                <p>Fanta Float adalah opsi penyegar yang sempurna untuk menyemarakkan setiap momen Anda.</p>
+            </center>
+        </p>
+    </div>        
+</div>
+<div id="menurootbeerfloat" class="w3-container kota w3-animate-bottom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>Rootbeer Float</h1>
+    </center>	
+    <div class="w3-panel w3-grey w3-round-xlarge">
+        <p>
+            <center>
+                <img src="root.jpg" style="width: 10%;">
+                <p>Rasakan sentuhan khas Root Beer yang unik dan memberikan kelezatan tersendiri pada setiap tegukan.</p>
+                <p>Kombinasinya dengan es krim vanilla menciptakan harmoni rasa yang tak terlupakan.</p>
+            </center>
+        </p>
+    </div>        
+    
+</div>
+
+<div id="contactus" class="w3-container kota w3-animate-zoom w3-card-4 w3-light-gray" style="display:none; opacity: 70%;">
+    <center>
+        <h1 ><b>Contact Us</h1>
+    <img src="contact.jpeg" style="width: 25%;">
+    </center>
+</div>
+
+<script>
+    function openKota(namakota) {
+        var i;
+        var x = document.getElementsByClassName("kota");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        document.getElementById(namakota).style.display = "block";
+    }
+</script>
+
+</body>
+</html>
